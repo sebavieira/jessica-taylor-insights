@@ -100,7 +100,7 @@ export const PatientDashboard = () => {
   }
 
   return (
-    <div className="grid grid-cols-12 gap-6">
+    <div className="grid grid-cols-12 gap-6 p-6">
       {/* Patients List */}
       <div className="col-span-3">
         <PatientList patients={patients} selectedPatient={selectedPatient} />
